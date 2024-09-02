@@ -1,11 +1,11 @@
 # Data Types in NumPy Arrays
 
 '''
-int_
-float_
-bool_
-complex_
-
+int_ -> i
+float_ -> f
+bool_ -> b
+complex_ -> c
+string -> S
 '''
 
 import numpy as np 
