@@ -7,18 +7,22 @@ Dimensions in Arrays
 '''
 import numpy as np
 
+# *1-D
 oneD = np.array([1,2,3,4]) # creating an '1-D' array
 print(oneD) # [1 2 3 4]
 print(oneD.ndim) # 1 -> 1-D Array
 
+# *2-D
 twoD = np.array([[1,2,3,4],[1,2,3,4]]) # creating a '2-D' array
 print(twoD) # [[1 2 3 4] [1 2 3 4]]
 print(twoD.ndim) # 2 -> 2-D Array
 
+# *3-D
 threeD = np.array([[[1,2,3,4],[1,2,3,4],[1,2,3,4]]]) # creating a '3-D' array
 print(threeD) # [[[1 2 3 4] [1 2 3 4] [1 2 3 4]]]
 print(threeD.ndim) # 3 -> 3-D Array
 
+# *Multi-D
 multiD = np.array([1,2,3,4],ndmin = 10) # creating a '10-D' array
 print(multiD) # [[[[[[[[[[1 2 3 4]]]]]]]]]]
 print(multiD.ndim) # 10 -> 10-D Array
