@@ -1,7 +1,7 @@
 # Iterating NumPy Arrays
 import numpy as np
 
-# * 1-D array iteration
+# *1-D array iteration
 var = np.array([1,2,3,4]) # 1-D
 print(var) # [1 2 3 4]
 
@@ -32,7 +32,7 @@ for b in np.ndenumerate(var):
 ((3,), 4)
 '''
 
-# * 2-D array iteration
+# *2-D array iteration
 var2 = np.array([[1,2,3],[4,5,6]]) # 2-D
 print(var2)
 '''
@@ -94,7 +94,7 @@ for m in var3:
 80
 '''
 
-# * iteration function -> (nditer())
+# *iteration function -> (nditer())
 
 for x in np.nditer(var3):
     print(x)
@@ -117,7 +117,7 @@ for x in np.nditer(var3):
 80
 '''
 
-# * iteration function with indexing -> (ndenumerate())
+# *iteration function with indexing -> (ndenumerate())
 
 for z in np.ndenumerate(var3):
     print(z)
