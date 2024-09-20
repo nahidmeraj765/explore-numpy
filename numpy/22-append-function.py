@@ -1,4 +1,4 @@
-# Appending array using -> np.append()
+# *Appending array using np.append()
 import numpy as np 
 
 # Appending in 1-D array

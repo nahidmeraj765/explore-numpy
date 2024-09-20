@@ -1,4 +1,4 @@
-# Deleting array using -> np.delete()
+# *Deleting array using np.delete()
 
 import numpy as np
 

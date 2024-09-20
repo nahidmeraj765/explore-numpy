@@ -1,4 +1,4 @@
-# Insert array using -> np.insert()
+# *Inserting in array using np.insert()
 
 import numpy as np
 
